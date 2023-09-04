@@ -1,0 +1,344 @@
+[
+  {
+    "ref": "fe309e61-2b32-4c42-9dde-542791ddbf71",
+    "keyword": "0632f2015df75ed36811e5acc3405b91",
+    "answer": "frutteto",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "f2707752b5dadeb3e15ccf356689618e"
+  },
+  {
+    "ref": "ans_a17c409d-4ef1-479c-8380-350a316bf335",
+    "keyword": "key_ed370435-a0a0-4dd5-a427-8d029bc5ed06",
+    "answer": "🙌 Hola bienvenido a Frutteto\nEn que puedo ayudarte ?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "555b30c099a6bdcbfc4aa8a3f50a3997",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "ans_18dcb9a4-800d-4cc7-bcbf-428ef01d939f",
+    "keyword": "ans_a17c409d-4ef1-479c-8380-350a316bf335",
+    "answer": "1. Ver catalogo de precios\n2. Realizar un pedido",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_e2059bc5-f4ac-4116-bf2f-63b24cc5a79b",
+          "keyword": "1",
+          "options": {
+            "sensitive": true,
+            "regex": false
+          },
+          "refSerialize": "065e0005da6e5c278a53691e53b48955"
+        },
+        {
+          "ref": "ans_fb1dfde3-58d8-4868-af82-f95ccc9fc817",
+          "keyword": "key_e2059bc5-f4ac-4116-bf2f-63b24cc5a79b",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "c8e0beee530bc6070a98d1812411e829"
+        },
+        {
+          "ref": "ans_43cc8369-8b9e-4a95-b1a0-b877d578195a",
+          "keyword": "ans_fb1dfde3-58d8-4868-af82-f95ccc9fc817",
+          "answer": "Si desea realizar el pedido de su mesa envie \"pedir\" o para salir envie \"salir\"",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_9e77dc6e-f7c4-415d-8588-e50d7c66a171",
+                "keyword": [
+                  "2",
+                  "pedir"
+                ],
+                "options": {
+                  "sensitive": true,
+                  "regex": false
+                },
+                "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
+              },
+              {
+                "ref": "ans_6088e0d4-dd35-4fcf-ae50-86c065409b53",
+                "keyword": "key_9e77dc6e-f7c4-415d-8588-e50d7c66a171",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "5cc86ef49ff4e7c9665c7749d84a8076"
+              },
+              {
+                "ref": "ans_08b90937-451b-4516-b206-e37b5b4d86e2",
+                "keyword": "ans_6088e0d4-dd35-4fcf-ae50-86c065409b53",
+                "answer": "Aguarde por favor ...",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": true,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "9b2aee00c2e30fbb3556bcc5f6f9ae11"
+              }
+            ],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "0ab6c1d706a8628ae6f34635d55f8174"
+        },
+        {
+          "ref": "key_8b53948e-1feb-46e4-a8c0-26207ad3de82",
+          "keyword": [
+            "2",
+            "pedir"
+          ],
+          "options": {
+            "sensitive": true,
+            "regex": false
+          },
+          "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
+        },
+        {
+          "ref": "ans_b832684b-5d6d-4690-ae68-b6f3d4eadac9",
+          "keyword": "key_8b53948e-1feb-46e4-a8c0-26207ad3de82",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "bcf684f305b1b079b770ad34e856605b"
+        },
+        {
+          "ref": "ans_fc01d72c-3399-46ad-a271-b4a21a64adb9",
+          "keyword": "ans_b832684b-5d6d-4690-ae68-b6f3d4eadac9",
+          "answer": "Aguarde por favor ...",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "d225350651a7b84cbe163d294a2bd8b7"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "863a3f2ad6a793aceae64e9589bd184e",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "b011ce14-59ff-410f-ba57-951beab05cb8",
+    "keyword": "863a3f2ad6a793aceae64e9589bd184e",
+    "answer": "1",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "cbe3b70c-25e3-48d2-a761-01b1242e05df",
+    "answer": "Papa $ 1000 x kg\nBanana $ 700 x kg\nPalta $ 400 x uni",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493515924253",
+    "refSerialize": "c9ed50f57f44ca6177e800d0e5a25950"
+  },
+  {
+    "ref": "ans_43cc8369-8b9e-4a95-b1a0-b877d578195a",
+    "keyword": "ans_fb1dfde3-58d8-4868-af82-f95ccc9fc817",
+    "answer": "Si desea realizar el pedido de su mesa envie \"pedir\" o para salir envie \"salir\"",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_9e77dc6e-f7c4-415d-8588-e50d7c66a171",
+          "keyword": [
+            "2",
+            "pedir"
+          ],
+          "options": {
+            "sensitive": true,
+            "regex": false
+          },
+          "refSerialize": "b64e4feda41f5d78c023d65fbd2b4127"
+        },
+        {
+          "ref": "ans_6088e0d4-dd35-4fcf-ae50-86c065409b53",
+          "keyword": "key_9e77dc6e-f7c4-415d-8588-e50d7c66a171",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "5cc86ef49ff4e7c9665c7749d84a8076"
+        },
+        {
+          "ref": "ans_08b90937-451b-4516-b206-e37b5b4d86e2",
+          "keyword": "ans_6088e0d4-dd35-4fcf-ae50-86c065409b53",
+          "answer": "Aguarde por favor ...",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "9b2aee00c2e30fbb3556bcc5f6f9ae11"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "0ab6c1d706a8628ae6f34635d55f8174",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "6acdcb54-1eb2-4c9e-8370-8b2e04442ea9",
+    "keyword": "0ab6c1d706a8628ae6f34635d55f8174",
+    "answer": "pedir",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "625fb0dda0286d7bf973c8fb9e7374bc"
+  },
+  {
+    "ref": "ans_08b90937-451b-4516-b206-e37b5b4d86e2",
+    "keyword": "ans_6088e0d4-dd35-4fcf-ae50-86c065409b53",
+    "answer": "Aguarde por favor ...",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9b2aee00c2e30fbb3556bcc5f6f9ae11",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "b70bc0a6-09db-4982-8ac6-7513686df7a7",
+    "answer": "Hola, ¿en qué puedo ayudarte con tu pedido?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493515924253",
+    "refSerialize": "12408667e32c1872c4117800fe128474"
+  },
+  {
+    "ref": "130ce9c5-e10e-4732-8c91-a6ec9be54023",
+    "keyword": "9b2aee00c2e30fbb3556bcc5f6f9ae11",
+    "answer": "hola quiero pedir 2 kg de papa",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "cf969d0ff4b5f86a19ee8c2b4a751d1e"
+  },
+  {
+    "ref": "ans_08b90937-451b-4516-b206-e37b5b4d86e2",
+    "keyword": "ans_6088e0d4-dd35-4fcf-ae50-86c065409b53",
+    "answer": "Pedido: 2 kg de papa.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9b2aee00c2e30fbb3556bcc5f6f9ae11",
+    "from": "5493515924253"
+  },
+  {
+    "ref": "bd5d4761-e581-4aef-bac5-dc668fa90ab5",
+    "keyword": "9b2aee00c2e30fbb3556bcc5f6f9ae11",
+    "answer": "2 paltas",
+    "options": {},
+    "from": "5493515924253",
+    "refSerialize": "1ae71bdcbdb783a6605f91325bd14602"
+  },
+  {
+    "ref": "ans_08b90937-451b-4516-b206-e37b5b4d86e2",
+    "keyword": "ans_6088e0d4-dd35-4fcf-ae50-86c065409b53",
+    "answer": "Pedido: 2 kg de papa, 2 paltas.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9b2aee00c2e30fbb3556bcc5f6f9ae11",
+    "from": "5493515924253"
+  }
+]
